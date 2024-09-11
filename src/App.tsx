@@ -1,11 +1,14 @@
 import './App.css';
 
+import profile from "./assets/profile.jpeg";
+
+
 function App() {
   return (
     <div className="profile-container">
       <div className="profile-image">
         <img
-          src="src/assets/jerry.jpeg"
+          src={profile}
           alt="Profile"
           className="profile-picture"
         />
