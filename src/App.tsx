@@ -5,7 +5,7 @@ function App() {
     <div className="profile-container">
       <div className="profile-image">
         <img
-          src="/Users/likeacloud/Documents/waffle/profile-page/src/assets/jerry.jpeg"
+          src="src/assets/jerry.jpeg"
           alt="Profile"
           className="profile-picture"
         />
