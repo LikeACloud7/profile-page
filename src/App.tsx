@@ -1,6 +1,6 @@
 import './App.css';
 
-import profile from "./assets/profile.jpeg";
+import profile from "./assets/jerry.jpeg";
 
 
 function App() {
