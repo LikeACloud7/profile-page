@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="profile-container">
       <div className="profile-image">
-        <img 
-          src="src/assets/jerry.PNG" 
-          alt="Profile" 
-          className="profile-picture" 
+        <img
+          src="src/assets/jerry.PNG"
+          alt="Profile"
+          className="profile-picture"
         />
       </div>
       <div className="profile-details">
