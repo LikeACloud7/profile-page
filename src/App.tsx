@@ -5,7 +5,7 @@ function App() {
     <div className="profile-container">
       <div className="profile-image">
         <img
-          src="src/assets/jerry.PNG"
+          src="/assets/jerry.PNG"
           alt="Profile"
           className="profile-picture"
         />
