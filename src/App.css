@@ -1,26 +1,32 @@
 .profile-container {
   display: flex;
   align-items: center;
+  background-color: #282828;
+  color: white;
   padding: 20px;
-}
-
-.profile-image {
-  flex-shrink: 0;
-  margin-right: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .profile-image img {
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
 }
 
-.profile-details {
-  display: flex;
-  flex-direction: column;
+.profile-details h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
-.checkmark {
-  font-size: 24px;
-  margin-top: 10px;
+.profile-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-details ul li {
+  margin-bottom: 5px;
 }
