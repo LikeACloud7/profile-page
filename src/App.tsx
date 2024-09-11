@@ -1,17 +1,12 @@
 import './App.css';
 
-import profile from "./assets/jerry.jpeg";
-
+import profile from './assets/jerry.jpeg';
 
 function App() {
   return (
     <div className="profile-container">
       <div className="profile-image">
-        <img
-          src={profile}
-          alt="Profile"
-          className="profile-picture"
-        />
+        <img src={profile} alt="Profile" className="profile-picture" />
       </div>
       <div className="profile-details">
         <h1 className="profile-name">박세준</h1>
